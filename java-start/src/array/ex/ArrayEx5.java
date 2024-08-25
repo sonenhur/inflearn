@@ -18,7 +18,7 @@ public class ArrayEx5 {
             sum += numbers[i];
         }
         average = (double) sum / count;
-        System.out.println(sum);
-        System.out.println(average);
+        System.out.println("sum = " + sum);
+        System.out.println("average = " + average);
     }
 }

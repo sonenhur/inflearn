@@ -15,7 +15,7 @@ public class ArrayEx4 {
             sum += numbers[i];
         }
         average = (double) sum / numbers.length;
-        System.out.println(sum);
-        System.out.println(average);
+        System.out.println("sum = " + sum);
+        System.out.println("average = " + average);
     }
 }
