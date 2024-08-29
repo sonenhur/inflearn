@@ -22,22 +22,21 @@ public class MethodEx3 {
         int balance = 10000;
         balance = deposit(balance, 1000);
         balance = withdraw(balance, 2000);
-        System.out.println("최종 잔액: " + balance + "원");
-
+        System.out.println("최종 잔액: " + balance);
     }
 
-    public static int deposit(int balance, int amount) {
-        balance += amount;
-        System.out.println(amount + "원을 입금했습니다. 현재 잔액: " + balance + "원");
+    private static int deposit(int balance, int depositAmount) {
+        balance = balance + depositAmount;
+        System.out.println(depositAmount + "원 입금했습니다. 잔액: " + balance + "원");
         return balance;
     }
 
-    public static int withdraw(int balance, int amount) {
-        if (balance >= amount) {
-            balance -= amount;
-            System.out.println(amount + "원을 출금했습니다. 현재 잔액: " + balance + "원");
+    private static int withdraw(int balance, int withdrawAmount) {
+        if (balance >= withdrawAmount) {
+            balance = balance - withdrawAmount;
+            System.out.println(withdrawAmount + "원 출금했습니다. 잔액: " + balance + "원");
         } else {
-            System.out.println("잔액이 부족합니다. 현재 잔액: " + balance);
+            System.out.println("잔액이 부족합니다. 현재 잔액: " + balance + "원");
         }
         return balance;
     }
