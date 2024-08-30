@@ -1,5 +1,7 @@
 package class1;
 
+import class1.ex.MovieReview;
+
 public class ClassStart1 {
     public static void main(String[] args) {
         String student1Name = "학생1";
@@ -18,5 +20,11 @@ public class ClassStart1 {
         System.out.println("이름: " + student2Name + " 나이: " + student2Age + " 성적: " + student2Grade);
         System.out.println("이름: " + student3Name + " 나이: " + student3Age + " 성적: " + student3Grade);
 
+    }
+
+    public static class MovieReviewMain1 {
+        public static void main(String[] args) {
+            MovieReview inception = new MovieReview();
+        }
     }
 }
