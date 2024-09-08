@@ -30,7 +30,7 @@ public class ProductOrderMain2 {
     static int getTotalAmount(ProductOrder[] orders) {
         int totalAmount = 0;
         for (ProductOrder order : orders) {
-            totalAmount += order.quantity * order.price;
+            totalAmount += (order.quantity * order.price);
         }
         return totalAmount;
     }
