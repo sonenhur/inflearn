@@ -6,7 +6,6 @@ public class Data3 {
 
     public Data3(String name) {
         this.name = name;
-//      Data3.count++; // 생략 가능
         count++;
     }
 }
