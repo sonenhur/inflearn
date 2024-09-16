@@ -18,6 +18,7 @@ public class DecoDataMain {
         data2.instanceCall();
 
         // 추가
+        System.out.println();
         // 인스턴스를 통한 접근 (추천하지 않음)
         DecoData data3 = new DecoData();
         staticCall();
