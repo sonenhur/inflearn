@@ -13,7 +13,7 @@ public class DataCountMain3 {
 
         // 추가
         System.out.println();
-        // 인스턴스를 통한 접근 (추천하지 않음)
+        // 인스턴스를 통한 접근(추천하지 않음)
         Data3 data4 = new Data3("D");
         System.out.println("D count = " + data4.count);
         // 클래스를 통한 접근
