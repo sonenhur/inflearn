@@ -8,7 +8,6 @@ public class DecoDataMain {
         staticCall();
         staticCall();
         staticCall();
-        staticCall();
 
         System.out.println("2.인스턴스 호출1");
         DecoData data1 = new DecoData();
@@ -22,7 +21,6 @@ public class DecoDataMain {
         // 인스턴스를 통한 접근 (추천하지 않음)
         DecoData data3 = new DecoData();
         staticCall();
-
         // 클래스를 통한 접근
         staticCall();
     }
