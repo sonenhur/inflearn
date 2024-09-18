@@ -5,9 +5,7 @@ public class CarMain {
         ElectricCar electricCar = new ElectricCar();
         electricCar.move();
         electricCar.charge();
-
-        System.out.println("==========");
-
+        System.out.println("=======");
         GasCar gasCar = new GasCar();
         gasCar.move();
         gasCar.fillUp();
