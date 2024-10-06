@@ -13,7 +13,8 @@ public class FinalLocalMain {
         // data2 = 20 // 컴파일 오류
         method(20);
     }
-    static void method(final int parameter){
+
+    static void method(final int parameter) {
         // parameter = 20;
     }
 }

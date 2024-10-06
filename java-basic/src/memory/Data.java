@@ -1,7 +1,7 @@
 package memory;
 
 public class Data {
-    private int value;
+    private final int value;
 
     public Data(int value) {
         this.value = value;

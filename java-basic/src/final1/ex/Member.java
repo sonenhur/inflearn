@@ -14,7 +14,7 @@ public class Member {
         this.name = name;
     }
 
-      // 이렇게 바꾸는게 이상적
+    // 이렇게 바꾸는게 이상적
 //    public void changeData(String name) {
 //        this.name = name;
 //    }

@@ -1,9 +1,9 @@
 package access.ex;
 
 public class Item {
-    private String name;
-    private int price;
-    private int quantity;
+    private final String name;
+    private final int price;
+    private final int quantity;
 
     public Item(String name, int price, int quantity) {
         this.name = name;

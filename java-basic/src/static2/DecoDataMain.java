@@ -21,7 +21,7 @@ public class DecoDataMain {
         System.out.println();
         // 인스턴스를 통한 접근(추천하지 않음)
         DecoData data3 = new DecoData();
-        data3.staticCall();
+        staticCall();
         // 클래스를 통한 접근
         staticCall();
     }

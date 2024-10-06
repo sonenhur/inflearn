@@ -15,7 +15,7 @@ public class AnimalSoundMain {
         System.out.println("동물 소리 테스트 종료");
         System.out.println();
 
-         soundCow(cow);
+        soundCow(cow);
     }
 
     private static void soundCow(Cow cow) {

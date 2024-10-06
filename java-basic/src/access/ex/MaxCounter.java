@@ -2,7 +2,7 @@ package access.ex;
 
 public class MaxCounter {
     private int count = 0;
-    private int max;
+    private final int max;
 
     public MaxCounter(int max) {
         this.max = max; // 생성자에서 전달된 max 값을 클래스 필드에 저장
