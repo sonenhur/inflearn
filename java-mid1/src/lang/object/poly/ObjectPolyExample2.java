@@ -6,12 +6,11 @@ public class ObjectPolyExample2 {
         Car car = new Car();
         Object object = new Object(); // Object 인스턴스도 만들 수 있다.
 
-//        Object[] objects = {dog, car, object};
-        Object[] objects = new Object[3];
-        objects[0] = dog;
-        objects[1] = car;
-        objects[2] = object;
-
+        Object[] objects = {dog, car, object};
+//        Object[] objects = new Object[3];
+//        objects[0] = dog;
+//        objects[1] = car;
+//        objects[2] = object;
         size(objects);
     }
 
