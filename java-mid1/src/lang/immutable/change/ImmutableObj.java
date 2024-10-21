@@ -1,7 +1,8 @@
 package lang.immutable.change;
 
 public class ImmutableObj {
-    public final int value;
+
+    private final int value;
 
     public ImmutableObj(int value) {
         this.value = value;

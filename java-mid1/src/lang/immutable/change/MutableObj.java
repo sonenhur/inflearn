@@ -1,6 +1,7 @@
 package lang.immutable.change;
 
 public class MutableObj {
+
     private int value;
 
     public MutableObj(int value) {
@@ -8,7 +9,7 @@ public class MutableObj {
     }
 
     public void add(int addValue) {
-        value += addValue;
+        value = value + addValue;
     }
 
     public int getValue() {
