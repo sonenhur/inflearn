@@ -3,12 +3,9 @@ out/
 !**/src/main/**/out/
 !**/src/test/**/out/
 
-# IntelliJ IDEA related files
+### IntelliJ IDEA related files ###
 /.idea
 *.iml
-
-# Build output directories
-/out/
 
 ### Eclipse ###
 .apt_generated
@@ -34,3 +31,21 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+
+### Maven ###
+/target/
+
+### Gradle ###
+.gradle/
+/build/
+
+### Log files ###
+*.log
+
+### Windows specific ###
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+### Linux specific ###
+*.swp
