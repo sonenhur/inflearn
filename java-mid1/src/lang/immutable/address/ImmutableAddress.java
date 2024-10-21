@@ -12,7 +12,7 @@ public class ImmutableAddress {
         return value;
     }
     //setValue()는 제거
-    
+
     @Override
     public String toString() {
         return "Address{" + "value='" + value + '\'' + '}';
