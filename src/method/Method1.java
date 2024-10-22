@@ -13,7 +13,7 @@ public class Method1 {
         //계산2
         int x = 10;
         int y = 20;
-        System.out.println(x + "+" + y +" 연산 수행");
+        System.out.println(x + "+" + y + " 연산 수행");
         int sum2 = x + y;
         System.out.println("결과2 출력:" + sum2);
     }

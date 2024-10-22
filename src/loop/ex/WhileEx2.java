@@ -8,7 +8,7 @@ public class WhileEx2 {
         while (count <= 10) {
             System.out.println(num);
             num += 2;
-            count ++;
+            count++;
         }
     }
 }
