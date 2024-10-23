@@ -24,7 +24,7 @@ public class LocalDateTimeMain {
 
         //계산(불변)
         LocalDateTime ofDtPlus = ofDt.plusDays(1000);
-        System.out.println("지정 날짜시간+1000d = "+ ofDtPlus);
+        System.out.println("지정 날짜시간+1000d = " + ofDtPlus);
         LocalDateTime ofDtPlus1Year = ofDt.plusYears(1);
         System.out.println("지정 날짜시간+1년 = " + ofDtPlus1Year);
 

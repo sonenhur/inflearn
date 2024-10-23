@@ -6,5 +6,6 @@ public class ClassGrade {
     public static final ClassGrade DIAMOND = new ClassGrade(); //x003
 
     //private 생성자 추가
-    private ClassGrade() {}
+    private ClassGrade() {
+    }
 }
