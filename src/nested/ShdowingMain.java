@@ -4,6 +4,12 @@ public class ShdowingMain {
 
     public int value = 1;
 
+    public static void main(String[] args) {
+        ShdowingMain main = new ShdowingMain();
+        Inner inner = main.new Inner();
+        inner.go();
+    }
+
     class Inner {
         public int value = 2;
 
@@ -13,11 +19,5 @@ public class ShdowingMain {
             System.out.println("this.value = " + this.value);
             System.out.println("ShdowingMain.value = " + ShdowingMain.this.value);
         }
-    }
-
-    public static void main(String[] args) {
-        ShdowingMain main = new ShdowingMain();
-        Inner inner = main.new Inner();
-        inner.go();
     }
 }

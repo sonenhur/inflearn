@@ -4,6 +4,11 @@ public class LocalOuterV2 {
 
     private int outInstanceVar = 3;
 
+    public static void main(String[] args) {
+        LocalOuterV2 localOuter = new LocalOuterV2();
+        localOuter.process(2);
+    }
+
     public void process(int paramVar) {
 
         int localVar = 1;
@@ -22,10 +27,5 @@ public class LocalOuterV2 {
 
         LocalPrinter printer = new LocalPrinter();
         printer.print();
-    }
-
-    public static void main(String[] args) {
-        LocalOuterV2 localOuter = new LocalOuterV2();
-        localOuter.process(2);
     }
 }

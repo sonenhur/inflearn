@@ -2,6 +2,10 @@ package exception.ex1;
 
 public class NetworkServiceV1_3 {
 
+    private static boolean isError(String connectResult) {
+        return !connectResult.equals("success");
+    }
+
     public void sendMessage(String data) {
         String address = "http://example.com";
         NetworkClientV1 client = new NetworkClientV1(address);
@@ -18,9 +22,5 @@ public class NetworkServiceV1_3 {
         }
 
         client.disconnect();
-    }
-
-    private static boolean isError(String connectResult) {
-        return !connectResult.equals("success");
     }
 }

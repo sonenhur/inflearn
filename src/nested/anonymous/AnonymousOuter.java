@@ -6,6 +6,11 @@ public class AnonymousOuter {
 
     private int outInstanceVar = 3;
 
+    public static void main(String[] args) {
+        AnonymousOuter main = new AnonymousOuter();
+        main.process(2);
+    }
+
     public void process(int paramVar) {
 
         int localVar = 1;
@@ -24,10 +29,5 @@ public class AnonymousOuter {
 
         printer.print();
         System.out.println("printer.class=" + printer.getClass());
-    }
-
-    public static void main(String[] args) {
-        AnonymousOuter main = new AnonymousOuter();
-        main.process(2);
     }
 }

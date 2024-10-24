@@ -14,6 +14,15 @@ public class Ex1RefMainV1 {
         System.out.println("프로그램 종료");
     }
 
+    public static void main(String[] args) {
+        Dice dice = new Dice();
+        Sum sum = new Sum();
+
+        System.out.println("Hello 실행");
+        hello(dice);
+        hello(sum);
+    }
+
     static class Dice implements Process {
 
         @Override
@@ -31,15 +40,6 @@ public class Ex1RefMainV1 {
                 System.out.println("i = " + i);
             }
         }
-    }
-
-    public static void main(String[] args) {
-        Dice dice = new Dice();
-        Sum sum = new Sum();
-
-        System.out.println("Hello 실행");
-        hello(dice);
-        hello(sum);
     }
 
 }
