@@ -1,6 +1,7 @@
 package loop;
 
 public class Nested1 {
+
     public static void main(String[] args) {
         for (int i = 0; i < 2; i++) {
             System.out.println("외부 for 시작 i:" + i);
@@ -8,7 +9,7 @@ public class Nested1 {
                 System.out.println("-> 내부 for " + i + "-" + j);
             }
             System.out.println("외부 for 종료 i:" + i);
-            System.out.println(); // 라인 구분을 위해 사용
+            System.out.println();
         }
     }
 }
