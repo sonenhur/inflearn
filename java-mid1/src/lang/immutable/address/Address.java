@@ -1,6 +1,7 @@
 package lang.immutable.address;
 
 public class Address {
+
     private String value;
 
     public Address(String value) {
@@ -17,6 +18,8 @@ public class Address {
 
     @Override
     public String toString() {
-        return "Address{" + "value='" + value + '\'' + '}';
+        return "Address{" +
+                "value='" + value + '\'' +
+                '}';
     }
 }

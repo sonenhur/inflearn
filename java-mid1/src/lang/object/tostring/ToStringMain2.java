@@ -1,6 +1,7 @@
 package lang.object.tostring;
 
 public class ToStringMain2 {
+
     public static void main(String[] args) {
         Car car = new Car("Model Y");
         Dog dog1 = new Dog("멍멍이1", 2);
@@ -22,6 +23,6 @@ public class ToStringMain2 {
         ObjectPrinter.print(dog2);
 
         String refValue = Integer.toHexString(System.identityHashCode(dog1));
-        System.out.println(refValue);
+        System.out.println("refValue = " + refValue);
     }
 }
